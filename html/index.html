@@ -4,29 +4,97 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/css/swiper.min.css">
+	<link rel="stylesheet" href="../sass/index.css" type="text/css" />
+	<link href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/js/swiper.min.js"></script>
-
+	<script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<div class='head'>
+	<div class='tu-head'>
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
-				<div class="swiper-slide">Slide 1</div>
-				<div class="swiper-slide">Slide 2</div>
-				<div class="swiper-slide">Slide 3</div>
+				<div class="swiper-slide swiper-slide1">
+					<div class="swiper-slide1-ad">
+						公告：办理会员五折起
+					</div>
+					<div class="swiper-slide1-nav clearfix">
+						<img src="../images/logo.png" alt="">
+						<ul class="clearfix">
+							<li><a>首页</a></li>
+							<li><a>图片</a></li>
+							<li><a>灵感</a></li>
+							<li><a>最新活动</a></li>
+							<li class="swiper-slide1-login">
+								<span>
+									<a class="login">登录</a>
+								</span>
+								<span>
+									<a class="reg">注册</a>
+								</span>
+							</li>
+						</ul>
+					</div>
+					<div class="swiper-slide1-search">
+						<input class="swiper-slide1-input"/>
+						<img src="../images/search.png" alt="">
+					</div>
+					<div class="swiper-slide1-type">
+						<ul class="clearfix">
+							<li>
+								<a>
+									花瓣
+								</a>
+							</li>
+							<li>
+								<a>
+									冬天
+								</a>
+							</li>
+							<li>
+								<a>
+									雪景
+								</a>
+							</li>
+							<li>
+								<a>
+									秋天
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					slide2
+				</div>
+				<div class="swiper-slide">
+					slide3
+				</div>
+				<div class="swiper-slide">
+					slide4
+				</div>
 			</div>
 			<!-- 如果需要分页器 -->
 			<div class="swiper-pagination"></div>
 			
 			<!-- 如果需要导航按钮 -->
-			<div class="swiper-button-prev"></div>
-			<div class="swiper-button-next"></div>
+			<!--<div class="swiper-button-prev"></div>-->
+			<!--<div class="swiper-button-next"></div>-->
 			
 			<!-- 如果需要滚动条 -->
-			<div class="swiper-scrollbar"></div>
+			<!--<div class="swiper-scrollbar"></div>-->
+			
 		</div>
 		<!--导航等组件可以放在container之外-->
 	</div>
+	<div class="classification container">
+		<div class="classifi-head">
+			<h1>分类</h1>
+			<p></p>
+			<h2>classification</h2>
+		</div>
+	</div>
+	
 	<script>
       var mySwiper = new Swiper ('.swiper-container', {
         // direction: 'vertical',
@@ -34,7 +102,7 @@
 
         // 如果需要分页器
         pagination: {
-          // el: '.swiper-pagination',
+          el: '.swiper-pagination',
         },
 
         // 如果需要前进后退按钮
