@@ -68,6 +68,8 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
                 padding: 0.5rem
                 span
                   margin-right: 1rem
+                .login,.reg
+                  color: #fff
                 .login:hover,
                 .reg:hover
                   color: lightsteelblue
@@ -94,6 +96,11 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
               margin-top: 0.7rem
               margin-right: 2rem
               cursor: pointer
+            img:hover
+              position: relative
+              top: -1px
+              left: -1px
+              box-shadow: 10px 10px 5px rgba(#888888, 0.1)
           .swiper-slide1-type
             padding-left: 50rem
             ul
@@ -119,37 +126,285 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
           border-radius: 0.5rem
 
   .classification
-    border: 1px solid red
+    //border: 1px solid red
     height: 43rem
     width: 75rem
     margin-top: 2rem
+    padding: 0
+    padding-top: 2rem
+    background: #FFFFFF
     .classifi-head
       text-align: center
       h1
-        margin-top: 2rem
         //width: 4rem
         height: 1.94rem
         font-size: 2rem
         font-family: MicrosoftYaHei
         color: rgba(0,0,0,1)
-        line-height: 0rem
+        //line-height: 0rem
+        margin: 0
       h2
+        //width: 7.06rem
+        height: 0.94rem
+        font-size: 1.25rem
+        font-family: ArialMT
+        color: rgba(111,111,111,1)
+        //line-height: 0rem
+        text-align: center
+        margin-bottom: 3.25rem
+      p
+        width: 18rem
+        height: 0.13rem
+        background: rgba(174,174,174,1)
+        margin-left: 27.5rem
+        padding: 0
+        margin-top: 0.5rem
+        margin-bottom: 0.25rem
+    .classifi-type
+      ul
+        margin-left: 27rem
+        margin-bottom: 1.5rem
+        li
+          float: left
+          margin-right: 4rem
+          a
+            cursor: pointer
+          a:hover
+            color: lightsteelblue
+    .classifi-img
+      height: 25rem
+      padding: 0 1.44rem
+      //border: 1px solid red
+      div
+        img
+          cursor: pointer
+        img:hover
+          box-shadow: 10px 10px 5px #888888
+          transition: box-shadow 0.1s
+          position: relative
+          top: -1px
+          left: -1px
+      .classifi-img-left
+        width: 55rem
+        float: left
+        //border: 1px solid yellow
+        height: 100%
+        img
+          height: 11.88rem
+          margin: 0 1rem 1rem 0
+        .classifi-img-left1
+          width: 24rem
+        .classifi-img-left2
+          width: 12.5rem
+        .classifi-img-left3
+          margin-right: 0
+        .classifi-img-left6
+          margin-right: 0
+          width: 25.5rem
+      .classifi-img-right
+        img
+          margin-left: 0.9rem
+    .classifi-more
+      height: 1rem
+      //border: 1px solid red
+      margin-top: 3rem
+      //padding: 0 0 0 11rem
+      font-size: 1rem
+      color: red
+      text-align: center
+      line-height: 0
+      font-weight: bold
+      div
+        display: inline-block
+        float: left
+        a
+          cursor: pointer
+        a:hover
+          color: lightsteelblue
+      .classifi-more-left
+        margin-left: 9rem
+        margin-right: 1.5rem
+      .classifi-more-right
+        margin-left: 5.5rem
+      .classifi-more-right, .classifi-more-left
+        width: 23.25rem
+        height: 0.06rem
+        background: rgba(204,204,204,1)
+  .featured
+    margin-top: 1.5rem
+    .featured-img
+      width: 120rem
+      height: 18.94rem
+      background-image: url("../images/featured.png")
+      background-size: 120rem 18.94rem
+      padding-top: 4.5rem
+      h1
         //width: 4rem
         height: 1.94rem
         font-size: 2rem
         font-family: MicrosoftYaHei
-        color: rgba(0,0,0,1)
-        line-height: 0rem
+        color: rgba(255,255,255,1)
+        //margin-left: 58rem
+        text-align: center
       p
-        margin-bottom: 0
-        margin: 0 29rem 0 29rem
-        border-top: 2px solid gray
-
-
-
-
-
-
-
+        width: 18rem
+        height: 0.13rem
+        background: rgba(174,174,174,1)
+        margin-left: 51rem
+      h3
+        //width: 4.88rem
+        height: 0.94rem
+        font-size: 1.25rem
+        font-family: ArialMT
+        color: rgba(255,255,255,1)
+        line-height: 0rem
+        text-align: center
+  .featured-type
+    padding: 0
+    position: relative
+    .swiper-container2
+      overflow: visible
+      width: 75rem
+      height: 65rem
+      .swiper-wrapper
+        height: 65rem
+        .swiper-slide
+          width: 22.5rem
+          height: 30.88rem
+          background-repeat: no-repeat
+          margin-top: 0.25rem
+          .swiper-slide-hover
+            width: 22.69rem
+            height: 30.88rem
+            background-image: url("../images/img-hover.png")
+            opacity: 0
+            padding: 23.19rem 0 0 2.63rem
+            h1
+              //width: 4.5rem
+              height: 1.5rem
+              font-size: 1.5rem
+              font-family: MicrosoftYaHei
+              color: rgba(255,255,255,1)
+              line-height: 0rem
+              a
+                cursor: pointer
+            p
+              width: 13.69rem
+              height: 0.06rem
+              background: rgba(250,250,250,1)
+            ul
+              li
+                float: left
+                margin-right: 1.5rem
+                a
+                  color: #fff
+                  cursor: pointer
+        .swiper-slide:hover .swiper-slide-hover
+          opacity: 1
+        .swiper-slide1
+          background-image: url("../images/featured1.png")
+        .swiper-slide2
+          background-image: url("../images/featured2.png")
+        .swiper-slide3
+          background-image: url("../images/featured3.png")
+        .swiper-slide4
+          background-image: url("../images/featured4.png")
+        .swiper-slide5
+          background-image: url("../images/featured5.png")
+        .swiper-slide6
+          background-image: url("../images/featured6.png")
+        .swiper-slide-next.swiper-slide
+          position: relative
+          z-index: 444
+          top: -4.3rem
+    .swiper-pagination2
+      text-align: center
+      .swiper-pagination-bullet
+        width: 1rem
+        height: 1rem
+        background-color: gray
+        transition: height 0.5s
+        margin-right: 1.63rem
+      .swiper-pagination-bullet-active
+        height: 3rem
+        border-radius: 0.5rem
+        transition: height 0.5s
+  .about-us
+    width: 120rem
+    height: 9.25rem
+    margin-top: 8.75rem
+    background-image: url("../images/aboutus.png")
+    background-size: 120rem 9.25rem
+    padding-top: 2.63rem
+    margin-bottom: 2.13rem
+    h1
+      height: 1.94rem
+      font-size: 2rem
+      font-family: MicrosoftYaHei
+      color: rgba(255,255,255,1)
+      text-align: center
+    p
+      width: 18rem
+      height: 0.13rem
+      background: rgba(174,174,174,1)
+      margin-left: 51rem
+    h3
+      height: 0.94rem
+      font-size: 1.25rem
+      font-family: ArialMT
+      color: rgba(255,255,255,1)
+      line-height: 0rem
+      text-align: center
+  .intro
+    height: 37.19rem
+    //border: 1px solid red
+    position: relative
+    padding: 0
+    .intro-vedio
+      margin-top: 4.56rem
+      width: 40rem
+      height: 28.13rem
+      background-image: url("../images/vedio.png")
+      background-size: 39.88rem 28.13rem
+      text-align: center
+      padding-top: 10.13rem
+      float: left
+      position: absolute
+      img
+        width: 7.13rem
+    .intro-text
+      width: 40rem
+      height: 37.19rem
+      background: #fff
+      float: right
+      padding-top: 7.06rem
+      .intro-text-company
+        margin-left: 7.69rem
+        //border: 1px solid red
+        h1
+          height: 1.81rem
+          font-size: 1.88rem
+          font-family: MicrosoftYaHei
+          color: rgba(0,0,0,1)
+          //margin-left: 16.38rem
+          text-align: center
+          margin-bottom: 2.25rem
+        h3
+          font-size: 1.3rem
+          font-family: MicrosoftYaHei
+          color: rgba(82,82,82,1)
+          line-height: 2.75rem
+          padding: 0 2rem 0 2rem
+        .intro-text-more
+          margin-top: 3rem
+          //border: 1px solid red
+          text-align: center
+          padding-right: 3.5rem
+          a
+            color: red
+            font-size: 1.3rem
+            font-weight: bold
+            cursor: pointer
+            float: right
 
 
