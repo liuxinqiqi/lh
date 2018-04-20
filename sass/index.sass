@@ -8,6 +8,7 @@ ul li
   zoom: 1
 .container
   width: 75rem
+  padding: 0
 a
   text-decoration: none
 html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
@@ -17,22 +18,22 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
   font-size: 1rem
   box-sizing: border-box
   .tu-head
-    width: 120rem
+    //width: 120rem
     height: 47rem
     padding: 0
     margin: 0
     .swiper-container
-      width: 120rem
+      //width: 120rem
       .swiper-wrapper
         width: 120rem
         .swiper-slide
           width: 120rem
           height: 47rem
           background-image: url("../images/background1.png")
-          background-size: 120rem 47rem
+          background-size: 100% 47rem
           background-repeat: no-repeat
           .swiper-slide1-ad
-            width: 120rem
+            //width: 120rem
             height: 2.38rem
             background: rgba(0,0,0, 0.1)
             text-align: center
@@ -43,10 +44,10 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
             width: 120rem
             height: 5rem
             //border: 1px solid red
-            padding: 0 0 0 23rem
+            padding: 0
             img
               height: 5rem
-              margin-right: 9rem
+              //margin-right: 9rem
               float: left
             ul
               display: inline-block
@@ -56,7 +57,7 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
               top: 1rem
               li
                 display: inline-block
-                margin-right: 8rem
+                margin-left: 8rem
                 margin-bottom: 0
                 font-size: 1.5rem
                 color: #fff
@@ -65,7 +66,6 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
                   cursor: pointer
               .swiper-slide1-login
                 font-size: 1rem
-                padding: 0.5rem
                 span
                   margin-right: 1rem
                 .login,.reg
@@ -102,8 +102,10 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
               left: -1px
               box-shadow: 10px 10px 5px rgba(#888888, 0.1)
           .swiper-slide1-type
-            padding-left: 50rem
+            //padding-left: 50rem
             ul
+              margin: 0 auto
+              width: 25rem
               li
                 float: left
                 margin-right: 4rem
@@ -156,14 +158,16 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
         width: 18rem
         height: 0.13rem
         background: rgba(174,174,174,1)
-        margin-left: 27.5rem
+        //margin-left: 27.5rem
+        margin: 0 auto
         padding: 0
         margin-top: 0.5rem
         margin-bottom: 0.25rem
     .classifi-type
       ul
-        margin-left: 27rem
-        margin-bottom: 1.5rem
+        //margin-left: 27rem
+        margin: 0 auto 1.5rem auto
+        width: 25rem
         li
           float: left
           margin-right: 4rem
@@ -173,7 +177,7 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
             color: lightsteelblue
     .classifi-img
       height: 25rem
-      padding: 0 1.44rem
+      padding: 0 0 0 1.44rem
       //border: 1px solid red
       div
         img
@@ -233,10 +237,11 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
   .featured
     margin-top: 1.5rem
     .featured-img
-      width: 120rem
+      width: 100%
       height: 18.94rem
       background-image: url("../images/featured.png")
-      background-size: 120rem 18.94rem
+      background-size: 100% 18.94rem
+      background-repeat: no-repeat
       padding-top: 4.5rem
       h1
         //width: 4rem
@@ -246,11 +251,13 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
         color: rgba(255,255,255,1)
         //margin-left: 58rem
         text-align: center
+        line-height: 1
       p
         width: 18rem
         height: 0.13rem
         background: rgba(174,174,174,1)
-        margin-left: 51rem
+        //margin-left: 51rem
+        margin: 1rem auto
       h3
         //width: 4.88rem
         height: 0.94rem
@@ -259,12 +266,13 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
         color: rgba(255,255,255,1)
         line-height: 0rem
         text-align: center
+        line-height: 0
   .featured-type
     padding: 0
     position: relative
     .swiper-container2
       overflow: visible
-      width: 75rem
+      //width: 75rem
       height: 65rem
       .swiper-wrapper
         height: 65rem
@@ -273,6 +281,7 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
           height: 30.88rem
           background-repeat: no-repeat
           margin-top: 0.25rem
+          //margin-right: 0.5rem
           .swiper-slide-hover
             width: 22.69rem
             height: 30.88rem
@@ -330,7 +339,7 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
         border-radius: 0.5rem
         transition: height 0.5s
   .about-us
-    width: 120rem
+    //width: 120rem
     height: 9.25rem
     margin-top: 8.75rem
     background-image: url("../images/aboutus.png")
@@ -343,17 +352,19 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
       font-family: MicrosoftYaHei
       color: rgba(255,255,255,1)
       text-align: center
+      line-height: 1
     p
       width: 18rem
       height: 0.13rem
       background: rgba(174,174,174,1)
-      margin-left: 51rem
+      //margin-left: 51rem
+      margin: 0 auto
     h3
       height: 0.94rem
       font-size: 1.25rem
       font-family: ArialMT
       color: rgba(255,255,255,1)
-      line-height: 0rem
+      line-height: 1
       text-align: center
   .intro
     height: 37.19rem
@@ -366,6 +377,7 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
       height: 28.13rem
       background-image: url("../images/vedio.png")
       background-size: 39.88rem 28.13rem
+      background-repeat: no-repeat
       text-align: center
       padding-top: 10.13rem
       float: left
@@ -406,5 +418,98 @@ html, body, h1, h2, h3, h4, h5, h6, ul, li, input, dl, ol, ul, p, span
             font-weight: bold
             cursor: pointer
             float: right
-
-
+  .advantage
+    //border: 1px solid red
+    margin-top: 1rem
+    padding-top: 4rem
+    min-height: 24rem
+    background-color: white
+    margin-bottom: 3.8rem
+    ul
+      li
+        width: 8.5rem
+        height: 12rem
+        margin-right: 11rem
+        float: left
+        text-align: center
+        p
+          height: 8.5rem
+          width: 8.5rem
+          border-radius: 50%
+          background-image: url("../images/adva-icon.png")
+          background-size: 8.5rem
+        span
+          height: 1.25rem
+          width: 7.44rem
+          font-size: 1.63rem
+          font-family: MicrosoftYaHei
+          margin-top: 1.8rem
+          color: rgba(0,0,0,1)
+          line-height: 0rem
+      li:last-child
+        margin-right: 0
+  .tu-line
+    //width: 120rem
+    height: 0.06rem
+    background: rgba(76,76,76,1)
+    margin-bottom: 0.25rem
+  .tu-bottom
+    height: 21.69rem
+    background-color: white
+    .tu-bottom-content
+      //border: 1px solid red
+      height: 21.69rem
+      padding-top: 4.5rem
+      .tu-bottom-logo
+        float: left
+        width: 10.56rem
+        height: 6.06rem
+        margin-right: 10rem
+        margin-top: 1rem
+        cursor: pointer
+      .bottom-list
+        float: left
+        display: inline-block
+        width: 20rem
+        height: 8.5rem
+        margin-right: 9rem
+        li
+          float: left
+          width: 6rem
+          height: 1.44rem
+          font-size: 1.5rem
+          font-family: MicrosoftYaHei
+          color: rgba(0,0,0,1)
+          margin-right: 4rem
+          margin-bottom: 2rem
+          a:hover
+            cursor: pointer
+      .bottom-code
+        float: left
+        .code
+          float: left
+          width: 8.5rem
+          height: 8.5rem
+          background-color: #979797
+        .server-text
+          float: left
+          //border: 1px solid yellow
+          width: 11rem
+          padding: 1.6rem 0 0 1.2rem
+          height: 8.5rem
+          h1
+            height: 1.5rem
+            font-size: 1.5rem
+            font-family: MicrosoftYaHei
+            color: rgba(0,0,0,1)
+            margin-bottom: 1rem
+          p
+            width: 10.56rem
+            height: 0.06rem
+            background: rgba(0,0,0,1)
+          h3
+            height: 0.88rem
+            font-size: 1.13rem
+            font-family: MicrosoftYaHei
+            color: rgba(0,0,0,1)
+            line-height: 0rem
